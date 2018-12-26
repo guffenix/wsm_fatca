@@ -1,0 +1,126 @@
+
+/* 0 */
+{
+  "_id" : ObjectId("5c198b285c03d2338c7ff0b9"),
+  "identificacion" : "987654322",
+  "nombre" : "Marker Lantern IV LP",
+  "codigo" : "100",
+  "tipo" : "Mobil",
+  "razonSocial" : "Marker Lantern IV LP",
+  "direccion" : "Av. Prueba 100",
+  "telefono" : "1234567890",
+  "fechaRegistro" : ISODate("2018-12-18T22:17:52.289Z"),
+  "estado" : true,
+  "sucursal" : [{
+      "codigo" : "1001",
+      "tipo" : "Sucursal",
+      "nombre" : "Sucursal",
+      "direccionUS" : "ISLAS CAIMAN",
+      "personaUS" : {
+        "identificacion" : "1716497324",
+        "nacionalidad" : "Ecuatoriana",
+        "tipo" : "Juridica",
+        "numeroTelefono" : "0987654321",
+        "instruccionPermanente" : "Institución Prueba",
+        "fechaNacimiento" : ISODate("2018-12-18T22:17:52.289Z"),
+        "lugarNacimiento" : {
+          "_Provincia" : "Pichincha",
+          "_Canton" : "Rumiñahui",
+          "_Parroquia" : "Sangolquì"
+        },
+        "poderNotarial" : {
+          "codigo" : "104",
+          "tipo" : "Activo",
+          "nombre" : "Poder Notarial 001",
+          "estado" : "ASO",
+          "autoridadCompetente" : {
+            "codigo" : "102",
+            "nombre" : "Autoridad Competente 001",
+            "cuentaBancoComercio" : {
+              "codigo" : "103",
+              "tipo" : "Ahorros",
+              "numero" : "98654328",
+              "titular" : "Empresa A",
+              "direccionPostal" : "abc123"
+            }
+          }
+        },
+        "telefonos" : [{
+            "tipo" : "Fijo",
+            "numero" : "0987654321"
+          }]
+      }
+    }]
+}
+
+/* 1 */
+{
+  "_id" : ObjectId("5c1c2dbaf244300bfa17e80c"),
+  "identificacion" : "987654323",
+  "nombre" : "Marker Lantern IV LP",
+  "codigo" : "100",
+  "tipo" : "Lavado de Activos",
+  "razonSocial" : "Marker Lantern IV LP",
+  "direccion" : "Av. Prueba 100",
+  "telefono" : "1234567890",
+  "fechaRegistro" : ISODate("2018-12-18T22:17:52.289Z"),
+  "estado" : true,
+  "sucursal" : [{
+      "codigo" : "1001",
+      "tipo" : "Sucursal",
+      "nombre" : "Sucursal",
+      "direccionUS" : "ISLAS CAIMAN",
+      "personaUS" : {
+        "identificacion" : "1716497325",
+        "nacionalidad" : "Ecuatoriana",
+        "tipo" : "Juridica",
+        "numeroTelefono" : "0987654321",
+        "instruccionPermanente" : "Institución Prueba",
+        "fechaNacimiento" : ISODate("2018-12-18T22:17:52.289Z"),
+        "lugarNacimiento" : {
+          "_Provincia" : "Pichincha",
+          "_Canton" : "Rumiñahui",
+          "_Parroquia" : "Sangolquì"
+        },
+        "poderNotarial" : {
+          "codigo" : "104",
+          "tipo" : "Activo",
+          "nombre" : "Poder Notarial 001",
+          "estado" : "ASO",
+          "autoridadCompetente" : {
+            "codigo" : "102",
+            "nombre" : "Autoridad Competente 001",
+            "cuentaBancoComercio" : {
+              "codigo" : "103",
+              "tipo" : "Ahorros",
+              "numero" : "98654328",
+              "titular" : "Empresa A",
+              "direccionPostal" : "abc123"
+            }
+          }
+        },
+        "telefonos" : [{
+            "tipo" : "Fijo",
+            "numero" : "0987654321"
+          }]
+      }
+    }]
+}
+
+
+
+/****************************/
+/**** EJEMPLO CONSULTA ******/
+/****************************/
+
+obtenerPersonaUSPorNombre:
+Marker Lantern IV LP
+
+obtenerEntidadUS:
+987654322
+
+obtenerPersonaUSPorCedula:
+1716497324
+
+obtenerEntidades:
+Sin parámetros
